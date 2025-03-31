@@ -6,8 +6,7 @@ import java.util.List;
 public class LOG {
     private static final int LOGO_SIZE = 10;
     private static final int STAMP_SIZE = 4;
-    private static final int MAX_STAMPS = 8;
-    
+
     public int solve(int n, char[][] logo, char stamps[][][]) {
         // Generate all possible placements for each stamp
         List<int[]>[] validPlacements = new ArrayList[n];
